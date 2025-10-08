@@ -1,0 +1,87 @@
+Crée un site Next.js + TailwindCSS (compatible Vercel) intitulé Maison Noir – Coming Soon 2026.
+
+🎨 Concept global :
+Maison Noir est une agence créative indépendante fondée à Paris. Sa mission est de réinventer la création artistique en fusionnant musique, art visuel et stratégie digitale au sein d’une même maison.
+Le design doit évoquer le mystère, le prestige et l’élégance contemporaine, comme une marque de luxe.
+
+🌑 Style visuel :
+
+Fond noir profond (#0a0a0a)
+
+Texte argenté (#e5e5e5)
+
+Accents or doux (#c6a664)
+
+Typographies : Playfair Display (titres) et Inter (texte)
+
+Ambiance : sobre, cinématographique, fluide
+
+Animations modernes et lentes (fade-in, slide-up, rotation subtile sur les dropdowns)
+
+🖋️ Structure de la page :
+
+Logo centré (image /public/logo.png) avec animation d’apparition fluide.
+
+Nom de l’agence :
+
+Texte : “MAISON NOIR” (en capitales, serif élégant)
+
+Apparition lente et progressive
+
+Slogan :
+
+« Là où la rose noire fait éclore les légendes. »
+
+Trois dropdowns animés (HeadlessUI ou Framer Motion) :
+
+À propos
+
+Maison Noir est une agence créative indépendante fondée à Paris. Sa mission : réinventer la création artistique en fusionnant musique, art visuel et stratégie digitale au sein d’une même maison.
+Elle réunit des talents émergents et des marques ambitieuses dans un lieu unique où l’esthétique rencontre la stratégie.
+Maison Noir, c’est la rencontre entre la vision artistique et la rigueur d’une agence moderne.
+
+Philosophie et vision
+
+Maison Noir repose sur trois piliers : création authentique, excellence esthétique et innovation stratégique.
+Elle soutient les jeunes artistes comme les figures établies, leur offrant une direction artistique exigeante, une production complète et une stratégie de communication solide.
+Maison Noir est un espace où les artistes deviennent des légendes.
+
+Nos pôles créatifs
+
+NOIR STUDIO : pôle de création visuelle — photo, vidéo, design graphique, identité visuelle.
+NOIR RECORDS : label musical — enregistrement, mixage, mastering, distribution et clips.
+NOIR DIGITAL : agence digitale — stratégie, community management, storytelling et développement web.
+
+Texte sur l’avancée du projet :
+
+Le site complet de Maison Noir est actuellement en développement.
+Les adresses mail professionnelles et la possibilité de s’abonner pour être informé de la sortie seront bientôt disponibles.
+Maison Noir prépare une plateforme prestigieuse, pensée pour accueillir autant les talents émergents que les icônes établies.
+
+Citation originale (signée Maison Noir) — affichée en bas, en italique, avec effet de fondu :
+
+« Dans l’obscurité, la rose noire s’épanouit, portant en elle la promesse de la lumière.
+Chaque pétale est une vision, chaque épine une épreuve, et chaque fleur une légende en devenir.
+Maison Noir ne suit pas les tendances — elle façonne les mythes, dans le silence des créateurs et la clarté de la passion. »
+— Maison Noir
+
+Pied de page minimaliste :
+
+© 2026 Maison Noir. Tous droits réservés.
+
+⚙️ Techniques :
+
+Framework : Next.js 14
+
+CSS : TailwindCSS
+
+Animations : Framer Motion
+
+Dropdowns : HeadlessUI
+
+Responsive design mobile / desktop
+
+💡 Objectif :
+Une page d’attente élégante, immersive et poétique, qui donne envie de découvrir la Maison tout en laissant planer un mystère artistique et prestigieux.
+
+💫 L’interface doit refléter que Maison Noir est une maison d’art et de légende — un lieu où la rose noire fait fleurir les mythes de demain.
