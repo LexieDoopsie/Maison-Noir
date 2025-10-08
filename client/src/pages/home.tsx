@@ -43,9 +43,9 @@ const dropdownSections = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-[#e5e5e5] font-sans overflow-x-hidden">
-      <div className="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16 py-12 md:py-16 lg:py-24">
-        <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
+    <div className="min-h-screen bg-[#000000] text-[#e5e5e5] font-sans overflow-x-hidden flex items-center justify-center py-8 md:py-12">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8">
+        <div className="max-w-5xl mx-auto bg-[#0a0a0a] rounded-lg shadow-[0_0_80px_rgba(0,0,0,0.9),0_0_40px_rgba(198,166,100,0.1)] p-8 sm:p-10 md:p-12 lg:p-16 space-y-12 md:space-y-16">
           
           {/* Logo Section with Fade In */}
           <motion.div
