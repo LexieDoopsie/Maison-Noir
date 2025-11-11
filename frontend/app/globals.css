@@ -4,16 +4,19 @@
 
 @layer base {
   * {
-    @apply border-noir-300;
+    border-color: rgb(45, 45, 45);
   }
   
   body {
-    @apply bg-noir-100 text-gray-100 antialiased;
+    background-color: rgb(15, 15, 15);
+    color: rgb(243, 244, 246);
     font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   html {
-    @apply dark;
+    color-scheme: dark;
   }
 }
 
@@ -46,14 +49,15 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-noir-200;
+  background-color: rgb(30, 30, 30);
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-noir-400 rounded-full;
+  background-color: rgb(60, 60, 60);
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-noir-500;
+  background-color: rgb(74, 74, 74);
 }
 
