@@ -7,9 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Maison Noir - Secure Communication Platform",
   description: "A mysterious, elegant, and secure communication platform",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  // Favicon is automatically detected from public/favicon.ico in Next.js 14
 };
 
 export default function RootLayout({
