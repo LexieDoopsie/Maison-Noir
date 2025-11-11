@@ -50,7 +50,9 @@ export default function ChatArea({
   const fetchMessages = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get(`/api/channels/${channelId}/messages`, {
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || '';
+      const apiPath = API_URL ? `${API_URL}/api` : '/api';
+      const response = await axios.get(`${apiPath}/channels/${channelId}/messages`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (response.data.success) {
@@ -63,7 +65,8 @@ export default function ChatArea({
 
   const connectSocket = () => {
     const token = localStorage.getItem('token');
-    const newSocket = io('http://localhost:5000', {
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+    const newSocket = io(API_URL, {
       auth: { token },
     });
 
